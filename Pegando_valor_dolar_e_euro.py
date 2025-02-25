@@ -58,6 +58,8 @@ planilha.write("B1", "Euro")
 planilha.write("A2", f"{valorDolar}")
 planilha.write("B2", f"{valorEuro}")
 
+ while(true):
+
 #fechando o arquivo
 arquivo.close()
 
